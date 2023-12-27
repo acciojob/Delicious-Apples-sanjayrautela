@@ -1,1 +1,92 @@
 /* your code here */
+/* Basic styling for the product section */
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.product__photo {
+  width: 50%;
+}
+
+.product__info {
+  width: 45%;
+}
+
+.photo-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.photo-main img {
+  width: 100%;
+  display: block;
+}
+
+.photo-album ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.photo-album ul li {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.photo-album ul li img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.variant ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.variant ul li {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.variant ul li img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.btn{
+	background-color:red;
+	border:none;
+	border-radius:5px;
+	color:white;
+	padding:10px;
+}
+
